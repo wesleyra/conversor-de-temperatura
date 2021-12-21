@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Graus Fahrenheit</title>
+    <title>Graus fahrenheit</title>
 </head>
 <body>
     <div id="container">
-        <h1>Temperature Converter</h1>
-        <input type="text" id="fahrenheit" placeholder="fahrenheit" name="f" value="" />
-        <input type="text" id="celsius" placeholder="celsius" name="c" value="" />
-        <button id="convert">Convert!</button>
-        <button id="Clear">Reset</button>
+        <h1>Temperature converter</h1>
 
+        <input type="text" id="fahrenheit" placeholder="fahrenheit" name="f" value="" />
+
+        <input type="text" id="celsius" placeholder="celsius" name="c" value="" />
+
+        <button id="convert"onclick="tempconvert()">Convert!</button>
+
+        <button id="clear"onclick="zerar()">Reset!</button>
     </div>
     <script src="conversor.js"></script>
-
     
 </body>
 </html>
